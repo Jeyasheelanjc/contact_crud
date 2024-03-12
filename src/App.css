@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+}
+.editPage input{
+  width: 70%;
+}
+.editPage{
+  background-color: bisque;
+}
+.editPage form{
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.bgFull{
+  min-height: 100vh;
+  background-color: bisque;
+}
+.cardBgColor{
+  background-color:white ;
+  margin: 10px 30px;
+}
+.conbg{
+  background-color: black;
+  color: white !important;
+}
+.navbar-brand{
+  color: white;
+}
+.navbar-brand:hover{
+  color: whitesmoke;
+}
+.addBtn{
+  width: 80px;
+  height: 35px;
+  margin-top:3px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: rgb(74, 244, 74);
+  border-radius: 5px;
+}
+.imgSize{
+  width: 130px;
+  border-radius: 50%;
+}
+.action{
+  display: flex;
+  margin: -15px 30px 0;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.content{
+  width: 300px;
+}
+.formcontrol{
+  margin: 15px 0;
+}
+label{
+  width: 100px;
+}
+.edit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: bisque;
+}
+.subBtn{
+  border: none;
+  outline: none;
+  background-color: rgb(153, 255, 1);
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+.cacBtn{
+  border: none;
+  outline: none;
+  background-color: rgb(255, 64, 39);
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+.bgFull input{
+  width: 100%;
+}
+.move{
+  margin-left: 33px;
+}
+@media screen and (max-width:576px) {
+  .cardBgColor{
+    background-color:white ;
+    margin: 10px 0px;
+  }
+  .move{
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width:768px) {
+  .cardBgColor{
+    background-color:white ;
+    margin: 10px 0px;
+  }
+  .action{
+    margin: 0 0px 0 150px;
+  }
+  .move{
+    margin-left: 0px;
+  }
+}
