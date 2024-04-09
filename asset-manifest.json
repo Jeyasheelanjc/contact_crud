@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/contact_crud/static/css/main.71f63dbe.css",
+    "main.js": "/contact_crud/static/js/main.da48616b.js",
+    "static/js/453.1fa24651.chunk.js": "/contact_crud/static/js/453.1fa24651.chunk.js",
+    "index.html": "/contact_crud/index.html",
+    "main.71f63dbe.css.map": "/contact_crud/static/css/main.71f63dbe.css.map",
+    "main.da48616b.js.map": "/contact_crud/static/js/main.da48616b.js.map",
+    "453.1fa24651.chunk.js.map": "/contact_crud/static/js/453.1fa24651.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71f63dbe.css",
+    "static/js/main.da48616b.js"
+  ]
+}
