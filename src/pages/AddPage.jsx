@@ -39,10 +39,10 @@ const AddPage = ({details,setDetails}) => {
         navigate('/')
     }
     return (
-        <div>
+        <div className='addpage d-flex align-items-center justify-content-center min-vh-100'>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-lg-5">
+                    <div className="col-lg-4 mx-auto ">
                         <form onSubmit={handleChange}>
                             <div className="formcontrol">
                                 <label htmlFor="name">Name:</label>
@@ -60,9 +60,9 @@ const AddPage = ({details,setDetails}) => {
                                 <label htmlFor="img">Image Url:</label>
                                 <input type="text" value={img_url} onChange={e => setImg(e.target.value)} />
                             </div>
-                            <div className="mt-3">
-                                <button type='submit'>Submit</button>
-                                <button className='ms-3' onClick={handleCancel}>Cancel</button>
+                            <div className="mt-3 text-center">
+                                <button type='submit' className='addbtn me-2'>Submit</button>
+                                <button className='cancbtn ms-2' onClick={handleCancel}>Cancel</button>
                             </div>
                         </form>
                     </div>

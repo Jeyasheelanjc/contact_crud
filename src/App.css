@@ -10,6 +10,14 @@
 .editPage{
   background-color: bisque;
 }
+.addpage{
+  background-color: brown;
+}
+.addpage form{
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 .editPage form{
   background-color: white;
   padding: 10px 20px;
@@ -43,6 +51,17 @@
   background-color: rgb(74, 244, 74);
   border-radius: 5px;
 }
+.addbtn{
+  width: 80px;
+  height: 35px;
+  margin-top:3px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: steelblue;
+  border-radius: 5px;
+}
+
 .imgSize{
   width: 130px;
   border-radius: 50%;
@@ -78,6 +97,12 @@ label{
   border-radius: 5px;
 }
 .cacBtn{
+  border: none;
+  outline: none;
+  background-color: rgb(255, 64, 39);
+  padding: 8px 16px;
+  border-radius: 5px;}
+.cancbtn{
   border: none;
   outline: none;
   background-color: rgb(255, 64, 39);
